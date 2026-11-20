@@ -1,0 +1,62 @@
+{
+  "config": {
+    "grid": 9,
+    "train_sizes": [
+      24,
+      96
+    ],
+    "noise_levels": [
+      0.0,
+      0.2
+    ],
+    "strengths": [
+      0.003,
+      0.03,
+      0.3
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "test_size": 256,
+    "threshold": 0.2
+  },
+  "problems": [
+    {
+      "name": "isotropic",
+      "diffusion_y": 0.65,
+      "diffusion_x": 0.65
+    },
+    {
+      "name": "weak_anisotropy",
+      "diffusion_y": 0.55,
+      "diffusion_x": 0.75
+    },
+    {
+      "name": "strong_anisotropy",
+      "diffusion_y": 0.2,
+      "diffusion_x": 1.1
+    }
+  ],
+  "python": "3.14.7",
+  "numpy": "2.5.5",
+  "matplotlib": "3.11.2"
+}
